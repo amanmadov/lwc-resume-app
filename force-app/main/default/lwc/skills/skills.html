@@ -1,0 +1,21 @@
+<!--#region Skills  -->
+<template>
+    <div class="about">
+        <h2 class="title2">Skills</h2>
+        <template for:each={skills} for:item="skill">
+            <div class="box" key={skill.type}>
+                <div class="experience">
+                    <h5>{skill.type}</h5>
+                </div>
+                <div class="text">
+                    <template for:each={skill.details} for:item="detail">
+                        <ul class="list-inline" key={detail}>
+                            <li class="list-inline-item"><span class="badge badge-light">{detail}</span></li>
+                        </ul>
+                    </template>
+                </div>
+            </div>
+        </template>
+    </div>
+</template>
+<!--#endregion -->

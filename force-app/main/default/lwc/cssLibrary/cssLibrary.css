@@ -29,7 +29,39 @@
     padding-top: 40px;
 }
 
+.about {
+    margin-bottom: 0;
+}
 
+.about a {
+    text-decoration: none;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .experience {
+    min-width: 150px;
+}
+
+.about .box .experience h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
 
 
 
