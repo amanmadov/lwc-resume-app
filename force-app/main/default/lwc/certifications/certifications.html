@@ -1,0 +1,17 @@
+<!--#region Certifications  -->
+<template>
+    <div class="contactInfo cert">
+        <h3 class="title">Certifications</h3>
+        <ul>
+            <template for:each={certificationList} for:item="cert">
+                <a href={cert.url} target="_blank" key={cert.name}>
+                    <li>
+                        <span class="icon"><i class={cssClass} aria-hidden="true"></i></span>
+                        <span class="text">{cert.name}</span>
+                    </li>
+                </a>
+            </template>
+        </ul>
+    </div>
+</template>
+<!--#endregion -->
