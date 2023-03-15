@@ -1,0 +1,64 @@
+@import 'c/cssLibrary';
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactInfo.cert ul li {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contactInfo.cert ul li span {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.contactInfo.cert ul li .icon {
+    display: inline;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.education li {
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo a {
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+<template>
+    <!--#region Contact  -->
+    <div class="contactInfo">
+        <h3 class="title">Contact Info</h3>
+        <ul>
+            <template for:each={contactList} for:item="contact">
+            <a href={contact.contactUrl} target="_blank" key={contact.contactUrl}>
+                <li>
+                    <span class="icon"><i class={contact.contactCss} aria-hidden="true"></i></span>
+                    <span class="text">{contact.contactText}</span>
+                </li>
+            </a>
+            </template>
+        </ul>
+    </div>
+    <!--#endregion -->
+</template>
