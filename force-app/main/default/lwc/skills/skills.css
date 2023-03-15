@@ -4,11 +4,48 @@
     display: grid;
     grid-template-columns: 150px 1fr;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .skills .box h4 {
     text-transform: uppercase;
     color: #848c99;
-    font-weight: 500
+    font-weight: 500;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: .5em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: auto;
+    border-radius: .25rem;
+}
+
+.badge-light {
+    color: #fff;
+    background-color: #003147;
+}
+
+.badge-light:focus,
+.badge-light:hover {
+    color: #0b2641;
+    text-decoration: none;
+    background-color: #dae0e5;
 }
