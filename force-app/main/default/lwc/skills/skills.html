@@ -8,11 +8,11 @@
                     <h5>{skill.type}</h5>
                 </div>
                 <div class="text">
-                    <template for:each={skill.details} for:item="detail">
-                        <ul class="list-inline" key={detail}>
-                            <li class="list-inline-item"><span class="badge badge-light">{detail}</span></li>
-                        </ul>
-                    </template>
+                    <ul class="list-inline">
+                        <template for:each={skill.details} for:item="detail">
+                            <li class="list-inline-item" key={detail}><span class="badge badge-light" >{detail}</span></li>
+                        </template>
+                    </ul>
                 </div>
             </div>
         </template>
