@@ -6,9 +6,9 @@
             <template for:each={educationList} for:item="ed">
                 <li key={ed.contactUrl}>
                     <h5>{ed.yearRange}</h5>
-                    <h4>{ed.degree}</h4>
+                    <h4 class="degree">{ed.degree}</h4>
                     <a href={ed.schoolUrl} target="_blank">
-                        <h4>{ed.schoolName}</h4>
+                        <h4 class="school">{ed.schoolName}</h4>
                     </a>
                 </li>
             </template>

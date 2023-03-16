@@ -1,20 +1,24 @@
-/* @import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap); */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/resource/PoppinsRegular');
 }
 
-body {
-    background: #add8e6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh
+h1,h2,h3,h4,h5,h6,p,li {
+    font-family: 'CustomFont';
 }
 
+h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+h2 span {
+    font-size: .8em;
+    font-weight: 300;
+}
 
 .description {
     color: #333;
@@ -45,6 +49,28 @@ body {
 
 .contactInfo {
     padding-top: 40px;
+}
+
+.contactInfo ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
 }
 
 .about {

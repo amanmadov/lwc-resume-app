@@ -1,5 +1,10 @@
 @import 'c/cssLibrary';
 
+@font-face {
+    font-family: 'myFontAwesome';
+    src: url('resource/fontawesom470/font-awesome-4.7.0/fonts/fontawesome-webfont.woff') format('woff');
+}
+
 .contactInfo {
     padding-top: 40px;
 }

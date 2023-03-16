@@ -1,15 +1,26 @@
 @import 'c/cssLibrary';
 
-.education li {
+.contactInfo.education li {
     margin-bottom: 15px;
 }
 
-.education h5 {
+.contactInfo.education h5 {
     color: #03a9f4;
     font-weight: 500;
 }
 
-.education h4:nth-child(2) {
+.contactInfo.education h4 {
     color: #fff;
-    font-weight: 500;
+}
+
+.contactInfo.education a {
+    text-decoration: none;
+}
+
+.school {
+    font-weight: 300;
+}
+
+.degree {
+    font-weight: 600;
 }

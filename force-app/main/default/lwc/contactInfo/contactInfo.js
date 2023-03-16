@@ -1,4 +1,6 @@
 import { LightningElement } from 'lwc';
+import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
+import faCss from '@salesforce/resourceUrl/fontawesom470';
 
 export default class ContactInfo extends LightningElement {
     contactList =
@@ -34,4 +36,11 @@ export default class ContactInfo extends LightningElement {
                 contactCss: 'fa fa-globe'
             }
         ];
+
+    renderedCallback() {
+        Promise.all([
+            loadStyle(this, faCss + '/font-awesome-4.7.0/css/font-awesome.css')
+            //loadStyle(this, FontAwesome + '/all.css')
+        ]).then().catch();
+    }
 }
