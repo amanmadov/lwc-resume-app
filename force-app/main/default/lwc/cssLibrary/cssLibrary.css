@@ -6,30 +6,6 @@
     src: url('/resource/PoppinsRegular');
 }
 
-/* .container {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: #fff;
-    margin: 50px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-} */
-
-/* .container .leftSection {
-    position: relative;
-    background: #003147;
-    padding: 40px;
-}
-
-.container .rightSection {
-    position: relative;
-    background: #fff;
-    padding: 40px;
-} */
-
 h1,h2,h3,h4,h5,h6,p,li {
     font-family: 'CustomFont';
 }
@@ -133,13 +109,6 @@ h2 span {
     color: #2a7da2;
     font-size: 16px;
 }
-
-/* @media (max-width:1000px) {
-    .container {
-        margin: 10px !important;
-        grid-template-columns: 1fr 1fr !important;
-    }
-} */
 
 @media (max-width:600px) {
     .about .box {
