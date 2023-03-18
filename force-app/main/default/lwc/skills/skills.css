@@ -1,20 +1,5 @@
 @import 'c/cssLibrary';
 
-.skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-.skills .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
-}
-
 .list-inline {
     padding-left: 0;
     list-style: none;
