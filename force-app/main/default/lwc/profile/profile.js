@@ -1,5 +1,5 @@
 import { LightningElement } from 'lwc';
-import PROFILE_IMAGE from '@salesforce/resourceUrl/profileImage';
+import PROFILE_IMAGE from '@salesforce/resourceUrl/profileImage2023';
 
 export default class Profile extends LightningElement {
     fullname = 'Nury Amanmadov';
