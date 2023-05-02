@@ -12,6 +12,10 @@ export default class Certifications extends LightningElement {
             url: 'https://trailblazer.me/id/amanmadov'
         },
         {
+            name: 'Salesforce Certified Platform Developer II',
+            url: 'https://trailblazer.me/id/amanmadov'
+        },
+        {
             name: 'Salesforce Certified Platform App Builder',
             url: 'https://trailblazer.me/id/amanmadov'
         },
