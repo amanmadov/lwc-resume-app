@@ -24,6 +24,10 @@ export default class Certifications extends LightningElement {
             url: 'https://trailblazer.me/id/amanmadov'
         },
         {
+            name: 'Salesforce Certified Associate',
+            url: 'https://trailblazer.me/id/amanmadov'
+        },        
+        {
             name: 'Certified Advanced RPA Professional',
             url: 'https://certificates.automationanywhere.com/60cc3632-60c6-4398-9584-6260430319bb'
         },
