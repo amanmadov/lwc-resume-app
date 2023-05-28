@@ -8,7 +8,9 @@ export default class Experience extends LightningElement {
             companyName: 'UNIVERSITY OF WASHINGTON',
             companyUrl: 'https://www.washington.edu/',
             title: 'Business Systems Developer',
-            description: []
+            description: ['Responsible for designing and developing APIs and RESTful web services to enable seamless communication between different systems and applications.',
+            'Utilized programming expertise in Apex, Visualforce, LWC to develop robust solutions and functionalities on the Salesforce platform.'
+            ]
         },
         {
             id: 1,
@@ -23,7 +25,7 @@ export default class Experience extends LightningElement {
                 'Leveraged an API-first approach to design and implement RESTful APIs, resulting in a 30% performance improvement for the legacy applications. Utilized Swagger for API testing and documentation',
                 'Developed custom RPA modules within a .NET environment and integrated them with existing RPA technologies',
                 'Designed, tested, and implemented robust automated processes and workflows using UiPath RPA ecosystem',
-                'Deployed and orchestrated components of automation and development tools on UiPath Automation Cloud',
+                // 'Deployed and orchestrated components of automation and development tools on UiPath Automation Cloud',
             ]
         },
         {
@@ -39,8 +41,8 @@ export default class Experience extends LightningElement {
                 'Developed and maintained integrations with external APIs to exchange financial data using SOAP and REST APIs',
                 'Reduced process cycle times by 50% through automation of manual tasks using UiPath RPA which enabled the organization to achieve compliance with regulatory requirements',
                 'Created and optimized T-SQL queries and stored procedures using SQL Server Management Studio',
-                'Designed and developed reports using SQL Server Reporting Services to support data-driven decision-making',
-                'Developed SSIS packages to extract, transform, and load (ETL) data into SQL Server databases',
+                // 'Designed and developed reports using SQL Server Reporting Services to support data-driven decision-making',
+                // 'Developed SSIS packages to extract, transform, and load (ETL) data into SQL Server databases',
                 // 'Performed data modeling to identify database requirements and designed necessary data structures',
                 // 'Implemented a company website with a responsive mobile-first approach which increased mobile traffic by %40',
             ]
