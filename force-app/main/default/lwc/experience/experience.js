@@ -3,8 +3,16 @@ import { LightningElement } from 'lwc';
 export default class Experience extends LightningElement {
     experienceList = [
         {
+            id: 0,
+            yearRange: '2023 - Present',
+            companyName: 'UNIVERSITY OF WASHINGTON',
+            companyUrl: 'https://www.washington.edu/',
+            title: 'Business Systems Developer',
+            description: []
+        },
+        {
             id: 1,
-            yearRange: '2019 - Present',
+            yearRange: '2019 - 2022',
             companyName: 'SOFTTECH A.Ş',
             companyUrl: 'https://softtech.com.tr/en/',
             title: 'Senior Software Engineer',
