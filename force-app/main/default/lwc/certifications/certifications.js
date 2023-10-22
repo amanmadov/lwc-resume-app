@@ -5,27 +5,27 @@ export default class Certifications extends LightningElement {
     certificationList = [
         {
             name: 'Salesforce Certified JavaScript Developer I',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
             name: 'Salesforce Certified Platform Developer I',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
             name: 'Salesforce Certified Platform Developer II',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
             name: 'Salesforce Certified Platform App Builder',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
             name: 'Salesforce Certified Administrator',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
             name: 'Salesforce Certified Associate',
-            url: 'https://trailblazer.me/id/amanmadov'
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },        
         {
             name: 'Certified Advanced RPA Professional',
