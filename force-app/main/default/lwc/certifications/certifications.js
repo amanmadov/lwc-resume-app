@@ -24,12 +24,24 @@ export default class Certifications extends LightningElement {
             url: 'https://www.salesforce.com/trailblazer/amanmadov'
         },
         {
+            name: 'Salesforce Certified Advanced Administrator',
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
+        },
+        {
+            name: 'Salesforce Certified Agentforce Specialist',
+            url: 'https://www.salesforce.com/trailblazer/amanmadov'
+        },
+        {
             name: 'Salesforce Certified Associate',
             url: 'https://www.salesforce.com/trailblazer/amanmadov'
-        },        
+        },
         {
             name: 'Certified Advanced RPA Professional',
             url: 'https://certificates.automationanywhere.com/60cc3632-60c6-4398-9584-6260430319bb'
+        },
+        {
+            name: 'AWS Certified Solutions Architect',
+            url: 'https://www.credly.com/amanmadov'
         },
         {
             name: 'Google Data Analytics Certificate',

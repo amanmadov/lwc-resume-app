@@ -3,7 +3,7 @@ import PROFILE_IMAGE from '@salesforce/resourceUrl/profileImage2023';
 
 export default class Profile extends LightningElement {
     fullname = 'Nury Amanmadov';
-    title = 'Software Engineer';
-    imageDescription = 'Profile image for Nury';
+    title = 'Infrastructure Engineer';
+    imageDescription = 'Profile image for Nurmyrat Amanmadov';
     imageUrl = PROFILE_IMAGE;
 }
