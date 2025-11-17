@@ -2,7 +2,7 @@
 
 ## About
 
-I'm a Senior Infrastructure Engineer with a proven track record of architecting enterprise-scale solutions that bridge cloud infrastructure, intelligent automation, and data-driven systems. Currently advancing global health research at the Institute for Health Metrics and Evaluation (University of Washington), I engineer robust Salesforce ecosystems, cloud infrastructure, and AI-powered automation platforms that serve 20,000+ collaborators across 170+ countries.
+I'm a Senior Infrastructure Engineer with a proven track record of architecting enterprise-scale solutions that bridge cloud infrastructure, intelligent automation, and data-driven systems. Currently advancing global health research at the Institute for Health Metrics and Evaluation, University of Washington, I engineer robust Salesforce ecosystems, cloud infrastructure, and AI-powered automation platforms that serve 20,000+ collaborators across 170+ countries.
 
 My expertise spans the full spectrum of modern infrastructure engineering: from designing highly scalable Salesforce architectures and CI/CD pipelines to orchestrating Kubernetes clusters and building intelligent automation systems using RPA and machine learning. I've delivered transformative results at scale—achieving 65-90% efficiency gains through automation, reducing data discrepancies by 80%, and architecting systems that process complex workflows for leading research institutions.
 
